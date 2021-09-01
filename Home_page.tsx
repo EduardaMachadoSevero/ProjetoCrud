@@ -4,9 +4,9 @@
 
 import React, {useState} from 'react'
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, Alert } from 'react-native'
-import ContatoServico from '../servico/contato_servico'
+import ContatoServico from './src/servico/contato_servico'
 import Icon from 'react-native-vector-icons/Ionicons'
-import { Contato } from '../modelo/Contato'
+import { Contato } from './src/modelo/Contato'
 import * as Speech from 'expo-speech';
 
 

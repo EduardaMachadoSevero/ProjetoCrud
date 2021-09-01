@@ -1,7 +1,7 @@
 import { Conexao } from './conexao'
 
 var db = null
-var atualizar=1 // use 1 para apagar e refazer a tabela ou 0 para manter os dados
+var atualizar=0 // use 1 para apagar e refazer a tabela ou 0 para manter os dados
 export default class DatabaseInit {
 
     constructor() {
